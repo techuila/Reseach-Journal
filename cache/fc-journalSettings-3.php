@@ -10,6 +10,10 @@
   array (
     'en_US' => 'asd',
   ),
+  'additionalHomeContent' => 
+  array (
+    'en_US' => 'vchgcjcgvjvjkb',
+  ),
   'name' => 
   array (
     'en_US' => 'ajsdijqw',

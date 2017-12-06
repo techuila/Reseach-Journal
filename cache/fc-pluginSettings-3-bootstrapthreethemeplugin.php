@@ -1,4 +1,4 @@
 <?php return array (
-  'bootstrapTheme' => 'flatly',
+  'bootstrapTheme' => 'paper',
   'enabled' => true,
 ); ?>
