@@ -1,0 +1,789 @@
+repo_name: techuila/Reseach-Journal
+report_id: 951fa00c3c12e9589eb0f90da5eda070
+repo_type: Public
+timestamp: '2023-11-15T06:31:46+00:00'
+requested_by: techuila
+provider: github
+branch: master
+detected_tools_count: 44
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source: Repo Metadata
+- name: Perl
+  description: Highly capable, feature-rich programming language with over 26 years
+    of development
+  website_url: http://www.perl.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: plugins/generic/citationStyleLanguage/lib/vendor/citation-style-language/locales/Gemfile
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: Less
+  description: The dynamic stylesheet language
+  website_url: http://lesscss.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1170/default_957cbc0168b4d37265e264469c888f776e57f42c.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: Symfony
+  description: A PHP full-stack web framework
+  website_url: http://symfony.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1197/logosf_positif_03_icon.png
+  detection_source: lib/pkp/lib/vendor/symfony/translation/composer.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: Twig
+  description: A flexible, fast, and secure template engine
+  website_url: https://twig.symfony.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1642/default_3debd3a9a6d757c011130c7a9626e7c3bd8be945.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/composer.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 1.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: lib/pkp/js/lib/jquery/plugins/spectrum/bower.json
+  detection_source: lib/pkp/lib/vendor/components/jqueryui/composer.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source: plugins/paymethod/paypal/vendor/symfony/http-foundation/Session/Storage/Handler/MongoDbSessionHandler.php
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source: lib/pkp/lib/vendor/components/jqueryui/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 4.8.36
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: lib/pkp/composer.lock
+  detection_source: plugins/paymethod/paypal/vendor/guzzle/guzzle/composer.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: RSpec
+  description: Behaviour Driven Development for Ruby
+  website_url: https://rspec.info/
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2539/logo.png
+  detection_source_url: plugins/generic/citationStyleLanguage/lib/vendor/citation-style-language/locales/Gemfile.lock
+  detection_source: plugins/generic/citationStyleLanguage/lib/vendor/citation-style-language/locales/Gemfile
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: plugins/generic/citationStyleLanguage/lib/vendor/citation-style-language/locales/Gemfile
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: plugins/paymethod/paypal/vendor/omnipay/paypal/.travis.yml
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: Monolog
+  website_url: https://github.com/Seldaek/monolog
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9170/183678.jpeg
+  detection_source: plugins/paymethod/paypal/vendor/guzzle/guzzle/composer.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source: Repo Metadata
+- name: clean-css
+  description: A well-tested CSS minifier
+  package_url: https://www.npmjs.com/clean-css
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16486/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: coffee-script
+  description: Unfancy JavaScript
+  package_url: https://www.npmjs.com/coffee-script
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15920/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: grunt
+  description: The JavaScript Task Runner
+  package_url: https://www.npmjs.com/grunt
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15835/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: lib/pkp/js/lib/jquery/plugins/spectrum/package.json
+  detection_source: lib/pkp/lib/vendor/components/jqueryui/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+  vulnerabilities:
+  - name: Race Condition in Grunt
+    cve_id: CVE-2022-1537
+    cve_url: https://github.com/advisories/GHSA-rm36-94g8-835r
+    detected_date: May 26
+    severity: high
+    first_patched: 1.5.3
+  - name: Arbitrary Code Execution in grunt
+    cve_id: CVE-2020-7729
+    cve_url: https://github.com/advisories/GHSA-m5pj-vjjf-4m3h
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.3.0
+  - name: Path Traversal in Grunt
+    cve_id: CVE-2022-0436
+    cve_url: https://github.com/advisories/GHSA-j383-35pm-c5h4
+    detected_date: Apr 27
+    severity: moderate
+    first_patched: 1.5.2
+- name: grunt-contrib-jshint
+  description: Validate files with JSHint
+  package_url: https://www.npmjs.com/grunt-contrib-jshint
+  version: 0.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15898/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: lib/pkp/js/lib/jquery/plugins/spectrum/package.json
+  detection_source: lib/pkp/js/lib/jquery/plugins/spectrum/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: grunt-contrib-qunit
+  description: Run QUnit unit tests in a headless Chrome instance
+  package_url: https://www.npmjs.com/grunt-contrib-qunit
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16756/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: lib/pkp/js/lib/jquery/plugins/spectrum/package.json
+  detection_source: lib/pkp/js/lib/jquery/plugins/spectrum/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: grunt-contrib-uglify
+  description: Minify JavaScript files with UglifyJS
+  package_url: https://www.npmjs.com/grunt-contrib-uglify
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: lib/pkp/js/lib/jquery/plugins/spectrum/package.json
+  detection_source: lib/pkp/js/lib/jquery/plugins/spectrum/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: nib
+  description: Stylus mixins and utilities
+  package_url: https://www.npmjs.com/nib
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17041/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: react-tools
+  description: A set of complementary tools to React
+  package_url: https://www.npmjs.com/react-tools
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16892/default_2e3ed47575edcaf407097e6171e3d4cb8681a6b3.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: lib/pkp/lib/vendor/components/jqueryui/package.json
+  detection_source: lib/pkp/lib/vendor/components/jqueryui/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: stylus
+  description: Robust, expressive, and feature-rich CSS superset
+  package_url: https://www.npmjs.com/stylus
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16131/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: uglify-js
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/uglify-js
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15900/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: uglifycss
+  description: Port of YUI CSS Compressor to NodeJS
+  package_url: https://www.npmjs.com/uglifycss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17797/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/package.json
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: compass
+  description: Compass is a Sass-based Stylesheet Framework that streamlines the creation
+    and maintenance of CSS
+  package_url: https://rubygems.org/compass
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18930/default_2a66e35a9d1ed9f6801b103e6cb853a10a4d64f1.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/Gemfile
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: fuubar
+  description: The instafailing RSpec progress bar formatter
+  package_url: https://rubygems.org/fuubar
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18940/default_ec64e7b00489c2b012b637eba2526e31e442c25b.png
+  detection_source_url: plugins/generic/citationStyleLanguage/lib/vendor/citation-style-language/locales/Gemfile.lock
+  detection_source: plugins/generic/citationStyleLanguage/lib/vendor/citation-style-language/locales/Gemfile
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: nokogiri
+  description: Nokogiri
+  package_url: https://rubygems.org/nokogiri
+  version: 1.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: plugins/generic/citationStyleLanguage/lib/vendor/citation-style-language/locales/Gemfile.lock
+  detection_source: plugins/generic/citationStyleLanguage/lib/vendor/citation-style-language/locales/Gemfile
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+  vulnerabilities:
+  - name: Nokogiri does not forbid namespace nodes in XPointer ranges
+    cve_id: CVE-2016-4658
+    cve_url: https://github.com/advisories/GHSA-fr52-4hqw-p27f
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.7.1
+  - name: Nokogiri Command Injection Vulnerability
+    cve_id: CVE-2019-5477
+    cve_url: https://github.com/advisories/GHSA-cr5j-953j-xw5p
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.10.4
+  - name: Nokogiri vulnerable to libxslt protection mechanism bypass
+    cve_id: CVE-2019-11068
+    cve_url: https://github.com/advisories/GHSA-qxcg-xjjg-66mj
+    detected_date: Mar 9
+    severity: critical
+    first_patched: 1.10.3
+  - name: libxml as used in Nokogiri has an infinite loop in a certain end-of-file
+      situation
+    cve_id: CVE-2020-7595
+    cve_url: https://github.com/advisories/GHSA-7553-jr98-vx47
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.10.8
+  - name: Nokogiri Implements libxml2 version vulnerable to use-after-free
+    cve_id: CVE-2021-3518
+    cve_url: https://github.com/advisories/GHSA-v4f8-2847-rwm7
+    detected_date: Jul 6
+    severity: high
+    first_patched: 1.11.4
+  - name: Nokogiri affected by zlib's Out-of-bounds Write vulnerability
+    cve_id: CVE-2018-25032
+    cve_url: https://github.com/advisories/GHSA-jc36-42cf-vqwj
+    detected_date: Jun 28
+    severity: high
+    first_patched: 1.13.4
+  - name: Nokogiri implementation of libxslt lacks integer overflow checks
+    cve_id: CVE-2017-5029
+    cve_url: https://github.com/advisories/GHSA-pf6m-fxpq-fg8v
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.7.2
+  - name: Improper Restriction of XML External Entity Reference (XXE) in Nokogiri
+      on JRuby
+    cve_id: CVE-2021-41098
+    cve_url: https://github.com/advisories/GHSA-2rr5-8q37-2w7h
+    detected_date: Sep 28
+    severity: high
+    first_patched: 1.12.5
+  - name: Nokogiri NULL Pointer Dereference
+    cve_id: CVE-2018-14404
+    cve_url: https://github.com/advisories/GHSA-6qvp-r6r3-9p7h
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.8.5
+  - name: Out-of-bounds read in nokogiri
+    cve_id: CVE-2017-9050
+    cve_url: https://github.com/advisories/GHSA-8c56-cpmw-89x7
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.8.1
+  - name: Nokogiri Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-24836
+    cve_url: https://github.com/advisories/GHSA-crjr-9rc5-ghw8
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: Nokogiri Improperly Handles Unexpected Data Type
+    cve_id: CVE-2022-29181
+    cve_url: https://github.com/advisories/GHSA-xh29-r2w5-wx8m
+    detected_date: May 24
+    severity: high
+    first_patched: 1.13.6
+  - name: Nokogiri gem, via libxml, is affected by DoS vulnerabilities
+    cve_id: CVE-2017-15412
+    cve_url: https://github.com/advisories/GHSA-r58r-74gx-6wx3
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.8.2
+  - name: Nokogiri contains libxml Out-of-bounds Write vulnerability
+    cve_id: CVE-2021-3517
+    cve_url: https://github.com/advisories/GHSA-jw9f-hh49-cvp9
+    detected_date: Mar 9
+    severity: high
+    first_patched: 1.11.4
+  - name: Nokogiri implementation of libxslt vulnerable to heap corruption
+    cve_id: CVE-2019-5815
+    cve_url: https://github.com/advisories/GHSA-vmfx-gcfq-wvm2
+    detected_date: Jul 8
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri affected by libxslt Use of Uninitialized Resource/Use After Free
+      vulnerability
+    cve_id: CVE-2019-18197
+    cve_url: https://github.com/advisories/GHSA-242x-7cm6-4w8j
+    detected_date: Jul 8
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri gem, via libxml, is affected by DoS vulnerabilities
+    cve_id: CVE-2017-16932
+    cve_url: https://github.com/advisories/GHSA-x2fm-93ww-ggvx
+    detected_date: Jun 10
+    severity: high
+    first_patched: 1.8.1
+  - name: Uninitialized read in Nokogiri gem
+    cve_id: CVE-2019-13117
+    cve_url: https://github.com/advisories/GHSA-4hm9-844j-jmxp
+    detected_date: Jun 10
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri has vulnerable dependencies on libxml2 and libxslt
+    cve_id: CVE-2021-30560
+    cve_url: https://github.com/advisories/GHSA-59gp-qqm7-cw4j
+    detected_date: Jun 28
+    severity: high
+    first_patched: 1.13.2
+  - name: Integer Overflow or Wraparound in libxml2 affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-cgx6-hpwq-fhv5
+    detected_date: May 19
+    severity: high
+    first_patched: 1.13.5
+  - name: Denial of service or RCE from libxml2 and libxslt
+    cve_id: CVE-2015-8806
+    cve_url: https://github.com/advisories/GHSA-7hp2-xwpj-95jq
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.6.8
+  - name: Vulnerable dependencies in Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-fq42-c5rg-92c2
+    detected_date: Feb 26
+    severity: high
+    first_patched: 1.13.2
+  - name: Nokogiri subject to DoS via libxml2 vulnerability
+    cve_id: CVE-2015-5312
+    cve_url: https://github.com/advisories/GHSA-xjqg-9jvg-fgx2
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.6.7.1
+  - name: Denial of Service (DoS) in Nokogiri on JRuby
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-gx8x-g87m-h5q6
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: Out-of-bounds Write in zlib affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-v6gp-9mmm-c6p5
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: libxslt Type Confusion vulnerability that affects Nokogiri
+    cve_id: CVE-2019-13118
+    cve_url: https://github.com/advisories/GHSA-cf46-6xxh-pc75
+    detected_date: Mar 9
+    severity: high
+    first_patched: 1.10.5
+  - name: Cross-site Scripting in loofah
+    cve_id: CVE-2018-8048
+    cve_url: https://github.com/advisories/GHSA-x7rv-cr6v-4vm4
+    detected_date: Jun 10
+    severity: moderate
+    first_patched: 1.8.3
+  - name: Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability
+    cve_id: CVE-2020-26247
+    cve_url: https://github.com/advisories/GHSA-vr8q-g5c7-m54m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.11.0
+  - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.14.3
+  - name: Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing
+    cve_id: CVE-2021-3537
+    cve_url: https://github.com/advisories/GHSA-286v-pcf5-25rc
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 1.11.4
+  - name: Heap-based buffer overflow in nokogiri
+    cve_id: CVE-2015-7499
+    cve_url: https://github.com/advisories/GHSA-jxjr-5h69-qw3w
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.6.7.2
+  - name: Uncontrolled resource consumption in nokogiri
+    cve_id: CVE-2017-18258
+    cve_url: https://github.com/advisories/GHSA-882p-jqgm-f45g
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.8.2
+  - name: Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-2qc6-mcvw-92cw
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.13.9
+  - name: XML Injection in Xerces Java affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xxx9-3xcr-gjj3
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.13.4
+  - name: Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-7rrm-v45f-jp64
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.11.4
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  version: 11.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: plugins/generic/citationStyleLanguage/lib/vendor/citation-style-language/locales/Gemfile.lock
+  detection_source: plugins/generic/citationStyleLanguage/lib/vendor/citation-style-language/locales/Gemfile
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+  vulnerabilities:
+  - name: OS Command Injection in Rake
+    cve_id: CVE-2020-8130
+    cve_url: https://github.com/advisories/GHSA-jppv-gw3r-w3q8
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 12.3.3
+- name: sass
+  description: Ruby Sass is deprecated! See https://sass-lang.com/ruby-sass for details
+  package_url: https://rubygems.org/sass
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18882/default_b1cb499f3e62fe773109c989f76e3365fbe49857.png
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/Gemfile
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+- name: sprockets
+  description: Sprockets is a Rack-based asset packaging system that concatenates
+    and serves JavaScript
+  package_url: https://rubygems.org/sprockets
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
+  detection_source_url: lib/pkp/lib/vendor/kriswallsmith/assetic/Gemfile
+  detection_source: lib/pkp/lib/vendor/kriswallsmith/assetic/Gemfile
+  last_updated_by: nerdcorez
+  last_updated_on: 2017-12-06 17:05:14.000000000 Z
+  vulnerabilities:
+  - name: Sprockets path traversal leads to information leak
+    cve_id: CVE-2018-3760
+    cve_url: https://github.com/advisories/GHSA-pr3h-jjhj-573x
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.12.5
+  - name: Moderate severity vulnerability that affects sprockets
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-r4x3-g983-9g48
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.0.5
+  - name: sprockets vulnerable to Path Traversal
+    cve_id: CVE-2014-7819
+    cve_url: https://github.com/advisories/GHSA-33pp-3763-mrfp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.0.5
